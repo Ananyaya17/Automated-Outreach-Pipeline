@@ -12,3 +12,17 @@ venv/
 dist/
 build/
 .DS_Store
+pytest_output.txt
+DEMO_DEBUG_REPORT.md
+DEMO_CHECKLIST.md
+PRODUCTION_CHECKLIST.md
+FINAL_READINESS_REPORT.md
+REAL_API_STATUS.md
+PIPELINE_EXPLANATION.txt
+test_api_connectivity.py
+test_brevo_connection.py
+test_ocean_connection.py
+test_prospeo_connection.py
+ocean_request_debug.py
+demo_data.json
+demo_runner.py
