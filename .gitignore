@@ -1,0 +1,14 @@
+﻿# Ignore environment and local files
+.env
+__pycache__/
+*.pyc
+*.pyo
+exports/
+logs/
+*.csv
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.DS_Store

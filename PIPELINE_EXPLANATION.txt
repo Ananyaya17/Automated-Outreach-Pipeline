@@ -1,0 +1,399 @@
+PS C:\project> python main.py --dry-run
+Outreach pipeline starting...
+Enter seed company domain: salesforce.com
+──────────────────────────────────────────── Stage 1: Find similar companies ────────────────────────────────────────────
+Found 10 similar companies
+INFO: Stage 1: Found 10 similar companies for seed salesforce.com
+───────────────────────────────────────────── Stage 2: Find decision makers ─────────────────────────────────────────────
+DOMAIN: ['salesboom.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['salesboom.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for salesboom.com, retry attempt 1/5 after 1.64s
+DOMAIN: ['maximizer.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['maximizer.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for maximizer.com, retry attempt 1/5 after 1.30s
+DOMAIN: ['workbooks.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['workbooks.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for workbooks.com, retry attempt 1/5 after 1.77s
+DOMAIN: ['sugarcrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['sugarcrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for sugarcrm.com, retry attempt 1/5 after 1.91s
+DOMAIN: ['hubspot.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['hubspot.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for hubspot.com, retry attempt 1/5 after 1.66s
+DOMAIN: ['insightly.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['insightly.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for insightly.com, retry attempt 1/5 after 1.40s
+DOMAIN: ['greenrope.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['greenrope.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for greenrope.com, retry attempt 1/5 after 1.27s
+DOMAIN: ['convergehub.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['convergehub.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for convergehub.com, retry attempt 1/5 after 1.88s
+DOMAIN: ['salesboom.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['salesboom.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for salesboom.com, retry attempt 2/5 after 2.41s
+DOMAIN: ['maximizer.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['maximizer.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for maximizer.com, retry attempt 2/5 after 2.40s
+DOMAIN: ['workbooks.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['workbooks.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for workbooks.com, retry attempt 2/5 after 2.26s
+DOMAIN: ['sugarcrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['sugarcrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for sugarcrm.com, retry attempt 2/5 after 2.08s
+DOMAIN: ['hubspot.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['hubspot.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for hubspot.com, retry attempt 2/5 after 2.08s
+DOMAIN: ['insightly.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['insightly.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for insightly.com, retry attempt 2/5 after 2.74s
+DOMAIN: ['greenrope.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['greenrope.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for greenrope.com, retry attempt 2/5 after 2.59s
+DOMAIN: ['convergehub.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['convergehub.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for convergehub.com, retry attempt 2/5 after 2.52s
+DOMAIN: ['salesboom.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['salesboom.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for salesboom.com, retry attempt 3/5 after 4.32s
+DOMAIN: ['maximizer.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['maximizer.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for maximizer.com, retry attempt 3/5 after 4.23s
+DOMAIN: ['workbooks.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['workbooks.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for workbooks.com, retry attempt 3/5 after 4.96s
+DOMAIN: ['sugarcrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['sugarcrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for sugarcrm.com, retry attempt 3/5 after 4.10s
+DOMAIN: ['hubspot.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['hubspot.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for hubspot.com, retry attempt 3/5 after 4.83s
+DOMAIN: ['insightly.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['insightly.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for insightly.com, retry attempt 3/5 after 4.87s
+DOMAIN: ['greenrope.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['greenrope.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for greenrope.com, retry attempt 3/5 after 4.99s
+DOMAIN: ['convergehub.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['convergehub.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for convergehub.com, retry attempt 3/5 after 4.50s
+DOMAIN: ['salesboom.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['salesboom.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for salesboom.com, retry attempt 4/5 after 8.13s
+DOMAIN: ['maximizer.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['maximizer.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for maximizer.com, retry attempt 4/5 after 8.14s
+DOMAIN: ['workbooks.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['workbooks.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for workbooks.com, retry attempt 4/5 after 8.05s
+DOMAIN: ['sugarcrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['sugarcrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for sugarcrm.com, retry attempt 4/5 after 8.37s
+DOMAIN: ['hubspot.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['hubspot.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for hubspot.com, retry attempt 4/5 after 8.40s
+DOMAIN: ['insightly.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['insightly.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for insightly.com, retry attempt 4/5 after 8.33s
+DOMAIN: ['greenrope.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['greenrope.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for greenrope.com, retry attempt 4/5 after 8.38s
+DOMAIN: ['convergehub.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['convergehub.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for convergehub.com, retry attempt 4/5 after 8.37s
+DOMAIN: ['salesboom.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['salesboom.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for salesboom.com, retry attempt 5/5 after 16.79s
+DOMAIN: ['maximizer.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['maximizer.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for maximizer.com, retry attempt 5/5 after 16.77s
+DOMAIN: ['workbooks.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['workbooks.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for workbooks.com, retry attempt 5/5 after 16.26s
+DOMAIN: ['sugarcrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['sugarcrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for sugarcrm.com, retry attempt 5/5 after 16.84s
+DOMAIN: ['hubspot.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['hubspot.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for hubspot.com, retry attempt 5/5 after 17.00s
+DOMAIN: ['insightly.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['insightly.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for insightly.com, retry attempt 5/5 after 16.02s
+DOMAIN: ['greenrope.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['greenrope.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for greenrope.com, retry attempt 5/5 after 16.92s
+DOMAIN: ['convergehub.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['convergehub.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for convergehub.com, retry attempt 5/5 after 16.04s
+DOMAIN: ['salesboom.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['salesboom.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: salesboom.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['nimble.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['nimble.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for nimble.com, retry attempt 1/5 after 1.75s
+DOMAIN: ['maximizer.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['maximizer.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: maximizer.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['workbooks.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['workbooks.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: workbooks.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['nimble.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['nimble.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for nimble.com, retry attempt 2/5 after 2.39s
+DOMAIN: ['espocrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['espocrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for espocrm.com, retry attempt 1/5 after 1.23s
+DOMAIN: ['sugarcrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['sugarcrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: sugarcrm.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['hubspot.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['hubspot.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: hubspot.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['insightly.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['insightly.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: insightly.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['greenrope.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['greenrope.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: greenrope.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['nimble.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['nimble.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for nimble.com, retry attempt 3/5 after 4.39s
+DOMAIN: ['convergehub.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['convergehub.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: convergehub.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['espocrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['espocrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for espocrm.com, retry attempt 2/5 after 2.41s
+DOMAIN: ['nimble.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['nimble.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for nimble.com, retry attempt 4/5 after 8.13s
+DOMAIN: ['espocrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['espocrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for espocrm.com, retry attempt 3/5 after 4.21s
+DOMAIN: ['espocrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['espocrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for espocrm.com, retry attempt 4/5 after 8.37s
+DOMAIN: ['nimble.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['nimble.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for nimble.com, retry attempt 5/5 after 16.27s
+DOMAIN: ['espocrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['espocrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Prospeo rate limit detected for espocrm.com, retry attempt 5/5 after 16.57s
+DOMAIN: ['nimble.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['nimble.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: nimble.com
+ -> 0 contacts, 0 with email
+DOMAIN: ['espocrm.com']
+PAYLOAD: {'page': 1, 'filters': {'company': {'websites': {'include': ['espocrm.com']}}}}
+POST https://api.prospeo.io/search-person
+STATUS: 429
+RESPONSE: {'error': True, 'error_code': 'Rate limit exceeded'}
+WARNING: Skipping domain due to rate limit after 5 retries: espocrm.com
+ -> 0 contacts, 0 with email
+Stage 2: Completed 10 API calls, returned 0 contacts
+INFO: Stage 2: Completed 10 API calls, returned 0 contacts
+Warning: Stage 2 is returning empty results. Check API plan or payload format.
+WARNING: Stage 2 returned no contacts for any domain: ['salesboom.com', 'maximizer.com', 'workbooks.com', 'sugarcrm.com', 'hubspot.com', 'insightly.com', 'greenrope.com', 'convergehub.com', 'nimble.com', 'espocrm.com']
+────────────────────────────────────────── Stage 3: Filter contacts with email ──────────────────────────────────────────
+Stage 3: Filtered leads count = 0
+INFO: Stage 3: Leads after email filter = 0
+────────────────────────────────────────────── Stage 4: Safety checkpoint ───────────────────────────────────────────────
+          Summary          
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Metric          ┃ Value ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ Total Companies │ 10    │
+│ Total Contacts  │ 0     │
+│ Total Emails    │ 0     │
+└─────────────────┴───────┘
+No valid leads found, skipping email send and CSV export.
+──────────────────────────────────────────────────────── Summary ────────────────────────────────────────────────────────
+Emails sent: 0, failed: 0
+Total failures: 0
+Execution time: 123.83s
+INFO: Pipeline finished: {'start_time': 1780819188.406826, 'companies_found': 10, 'contacts_found': 0, 'emails_resolved': 0, 'emails_sent': 0, 'failed': 0}
